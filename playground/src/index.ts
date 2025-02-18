@@ -1,6 +1,6 @@
 import {onCall, onRequest} from "firebase-functions/v2/https";
 import * as logger from "firebase-functions/logger";
-import {handle} from "./handle";
+import {handle} from "hono-firebase-functions";
 import {app} from "./app";
 
 // Hono を handle に渡して onRequest を定義
@@ -20,4 +20,4 @@ export const helloOnCall = onCall((request) => {
   return {
     returnContent: text,
   };
-})
+});

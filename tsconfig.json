@@ -10,14 +10,13 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     
     /* Declaration */
     "declaration": true,
     "declarationDir": "./dist",
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
 
     /* Linting */
     "strict": true,
