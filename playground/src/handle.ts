@@ -2,6 +2,7 @@ import type {Response as ExpressResponse} from "express";
 import {Request as FirebaseRequest} from "firebase-functions/v2/https";
 import {Hono} from "hono";
 
+// eslint-disable-next-line valid-jsdoc
 /**
  * Creates an adapter function that bridges Firebase Functions
  * requests/responses to a Hono application via the Fetch API.

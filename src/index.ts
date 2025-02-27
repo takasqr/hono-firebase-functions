@@ -1,3 +1,3 @@
-import { handle } from "./handle";
+import { handle } from "./handle.js";
 
 export { handle }
